@@ -1,0 +1,33 @@
+/* Navbar color */
+.navbar {
+    background-color: #0af80a; /* Midnight Blue */
+  }
+  
+  /* Navbar link color */
+  .navbar-dark .navbar-nav .nav-link {
+    color: #663ed3; /* Clouds White */
+  }
+  
+  /* Navbar link color on hover */
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #f12109; /* Alizarin Crimson */
+  }
+  
+  /* Custom styles for different colored cards */
+  .manage-members {
+    background-color: #a33939; /* Light Coral */
+  }
+  
+  .track-contributions {
+    background-color: #A0E7E5; /* Pale Cyan */
+  }
+  
+  .organize-events {
+    background-color: #9A77B7; /* Lavender Purple */
+  }
+  
+  /* Footer color */
+  .footer {
+    background-color: #0c5399; /* Wet Asphalt */
+    color: #f0f1ec; /* Clouds White */
+  }

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chama Management System</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- Added Font Awesome -->
+  <style>
+    .navbar {
+      background: linear-gradient(45deg, #00bcd4, #1a237e); /* Gradient color for the navbar */
+    }
+    .background-container {
+      background-image: url('asset/logo1.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px; /* Adjusted height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .statement {
+      color: green; /* Green color */
+      font-size: 5rem; /* Large font size */
+      font-weight: bold;
+      text-align: center;
+      position: absolute;
+      animation: fadeInOut 6s infini; /* Animation to fade in and out */
+    }
+    @keyframes fadeInOut {
+      0%, 100% { opacity: 0; transform: rotate(-360deg); }
+      10%, 90% { opacity: 1; transform: rotate(0deg); }
+    }
+    .services-heading {
+      color: green; /* Green color */
+      font-size: 4rem; /* Very large font size */
+      text-align: center; /* Center the text */
+      margin-top: 2rem; /* Add some margin on top */
+    }
+    .card-heading {
+      font-weight: bold;
+      color: black; /* Black color */
+      font-size: 2rem; /* Large font size */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="asset/chamalogo.png" alt="Chama Management System" height="60"> <!-- Larger logo image -->
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="chama.html"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a> <!-- Link to the login page -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Top Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <span class="nav-link"><i class="fas fa-phone"></i> Call: 0706295324</span>
+      </li>
+      <li class="nav-item">
+        <span class="nav-link"><i class="fas fa-envelope"></i> Email: <a href="mailto:info@bingwagroup.coop" class="text-white">info@bingwagroup.coop</a></span>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="register.php"><i class="fas fa-user-plus"></i> Register</a> <!-- Link to the registration page -->
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- End Top Navigation Bar -->
+  <!-- Background Container -->
+  <div class="container-fluid background-container mt-4">
+    <div class="statement" id="statement">Welcome to Bingwa group. A Chama you can trust and rely on</div>
+  </div>
+  <!-- End Background Container -->
+
+  <!-- Additional Information -->
+  <div class="content mt-4">
+    <p class="lead">As a Chama group, we take pride in offering innovative products and services tailored to meet the diverse needs of our valued members. As you journey towards achieving your dreams, we understand the importance of having reliable partners by your side. That's why we're here to walk alongside you every step of the way. Membership is open to all, including individuals, micro and small businesses, corporations, institutions, and other groups. Whether you're an established Chama or just starting out, we're committed to providing you with the very best in banking and investment services. Join us today and experience the difference of banking with a partner who truly understands your aspirations and is dedicated to helping you realize them.</p>
+  </div>
+  <!-- End Additional Information -->
+
+  <!-- Our Services Heading -->
+  <div class="services-heading">
+    OUR SERVICES
+  </div>
+  <!-- End Our Services Heading -->
+
+  <!-- Services Cards -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="asset/save.jpg" class="card-img-top" alt="Savings Services">
+          <div class="card-body">
+            <h5 class="card-heading">Savings Services</h5>
+            <p>We offer Savings Services through Personal Accounts, Institution and Business Accounts. Other Accounts are: - Chamas and Joint Accounts, Children Account, Holiday Savings Account and All Farm Produce (Tea, Coffee, Milk, Rice, Horticulture e.t.c) Accounts, Investment Accounts</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="asset/credit1.jpg" class="card-img-top" alt="Credit Services">
+          <div class="card-body">
+            <h5 class="card-heading">Credit Services</h5>
+            <p>Our Credit offering ranges from a wide range of products which include:- Development Loan, Emergency Loan, Crop Advance Loans, Salary Advances, Mortgage Loans, Asset Financing, Micro-Finance Loans. These loans are offered on reducing balance with no hidden charges.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="asset/banking-2.jpg" class="card-img-top" alt="Other Services">
+          <div class="card-body">
+            <h5 class="card-heading">Other Services</h5>
+            <p>In addition to Savings and Credit, we offer the following services:- Insurance Agency, Investment Wings, Agency Services & Inua Jamii Payments, Mobile Banking Services, ATM - Visa Branded Sacco Link Cards, Benevolent Fund Scheme, Bankers and Ordinary Cheques, and many more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Services Cards -->
+
+  <script>
+    const statements = [
+      'Welcome to Bingwa group. A Chama you can trust and rely on',
+       'Membership is open for All',
+       'Join us and experience the difference of banking with a partner who truly understands your aspirations & is dedicated to helping you realize them.',
+      'A partner for life, Together we can achieve your dreams'
+    ];
+    let currentStatementIndex = 0;
+
+    function showNextStatement() {
+      currentStatementIndex = (currentStatementIndex + 1) % statements.length;
+      document.getElementById('statement').textContent = statements[currentStatementIndex];
+    }
+
+    setInterval(showNextStatement, 5000); // Change statement every 5 seconds
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<!-- Footer -->
+<footer class="footer mt-auto py-3 bg-dark text-white">
+  <div class="container text-center">
+    <li class="nav-item">
+      <span class="nav-link"><i class="fas fa-envelope"></i> Email: <a href="mailto:info@bingwagroup.coop" class="text-white">info@bingwagroup.coop</a></span>
+    </li>
+    <li class="nav-item">
+      <span class="nav-link"><i class="fas fa-phone"></i> Call: 0706295324</span>
+    </li>
+  </div>
+</footer>
+<!-- End Footer -->
+
+</html>
